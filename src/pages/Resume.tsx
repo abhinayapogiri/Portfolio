@@ -23,9 +23,14 @@ const Resume: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <a href="/resume.pdf" download className="btn">
-              <FileDown size={16} /> Download Resume
-            </a>
+           <a
+  href="/Portfolio/resume.pdf"  // important: use `/Portfolio/resume.pdf` if you're using basename="Portfolio"
+  download
+  className="btn btn-primary"
+>
+  Download Resume
+</a>
+
           </motion.div>
         </div>
       </section>
