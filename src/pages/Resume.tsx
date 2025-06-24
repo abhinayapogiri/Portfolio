@@ -24,7 +24,7 @@ const Resume: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
            <a
-  href="/Portfolio/resume.pdf"  // important: use `/Portfolio/resume.pdf` if you're using basename="Portfolio"
+  href="/Portfolio/resume.pdf"  
   download
   className="btn btn-primary"
 >

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ChevronRight, Briefcase, User } from 'lucide-react';
+import {  Briefcase, User } from 'lucide-react';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -26,9 +26,9 @@ const Home: React.FC = () => {
             </p>
 
             <div className="hero-buttons">
-              <Link to="/contact" className="btn">Get in Touch</Link>
+              <Link to="/contact" className="btn btn-secondary">Get in Touch</Link>
               <Link to="/projects" className="btn btn-secondary">
-                View Projects <ChevronRight size={16} />
+                View Projects 
               </Link>
             </div>
           </motion.div>

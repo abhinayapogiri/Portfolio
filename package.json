@@ -1,6 +1,5 @@
 {
   "name": "portfolio-website",
-  "homepage": "https://abhinayapogiri.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^11.1.6",
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.344.0",
